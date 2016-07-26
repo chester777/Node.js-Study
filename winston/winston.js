@@ -27,7 +27,7 @@ var options = {
 		}),
 
 		new Console({
-			level: 'critical',
+			level: 'critical', // Modifying this option, you can contol logger output level.
 			colorize: true
 		})
 	]
