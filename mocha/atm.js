@@ -10,7 +10,7 @@ Account.prototype.getAccount = function(){
 
 Account.prototype.withDraw = function(money){
 	this.money = money
-	totalDeposit = money
+	totalDeposit -= money
 }
 
 Account.prototype.AtmRemainingCash = function() {
